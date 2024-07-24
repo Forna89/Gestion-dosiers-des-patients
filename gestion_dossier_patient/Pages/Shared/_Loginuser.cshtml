@@ -1,0 +1,36 @@
+@using gestion_dossier_patient.models;
+@using Microsoft.AspNetCore.Identity;
+
+@inject SignInManager<AppUser> signIn;
+@inject UserManager<AppUser> user;
+
+<ul class="navbar-nav ml-auto">
+    @if (signIn.IsSignedIn(User))
+    {
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                class="btn btn-outline-secondary btn-sm">
+                @user.GetUserAsync(User).Result.UserName
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a class="dropdown-item" asp-page="/Admin/Logins" asp-page-handler="LogOut"
+                        class="btn btn-outline-secondary btn-sm">
+                        <i class="bi bi-box-arrow-left"></i>
+                    </a>
+                </li>
+            </ul>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-page="/Admin/Register" class="btn btn-outline-secondary btn-sm"><i
+                    class="bi bi-person-plus"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-page="/Admin/Logins" class="btn btn-outline-secondary btn-sm"><i
+                    class="bi bi-person-lock"></i></a>
+        </li>
+    }
+</ul>

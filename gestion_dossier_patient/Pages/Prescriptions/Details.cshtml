@@ -1,0 +1,35 @@
+@page
+@model gestion_dossier_patient.Pages_Prescriptions.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Prescription</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Prescription.consultation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Prescription.consultation.patientCode)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Prescription.Prescription_Text)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Prescription.Prescription_Text)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Prescription?.Id" class="btn btn-primary">
+    <i class="bi bi-pencil-square"></i>
+    </a> |
+    <a asp-page="./Index" class="btn btn-primary">
+    <i class="bi bi-arrow-return-left"></i>
+    </a>
+</div>

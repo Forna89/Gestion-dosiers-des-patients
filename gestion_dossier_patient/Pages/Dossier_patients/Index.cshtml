@@ -1,0 +1,73 @@
+@page
+@model gestion_dossier_patient.Pages_Dossier_patients.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create" class=" btn" style="background-color: #82e0aa;"><i class="bi bi-plus-circle-dotted"></i></a>
+</p>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Dossier_patient[0].Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dossier_patient[0].Prenom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dossier_patient[0].Sexe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dossier_patient[0].Tel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dossier_patient[0].Adresse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dossier_patient[0].Date_Enregistrement)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Dossier_patient)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Prenom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sexe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tel)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Adresse)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date_Enregistrement)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Code" class="btn btn-outline-primary">
+                        <i class="bi bi-pencil-square"></i>
+                    </a> |
+                    <a asp-page="./Details" asp-route-id="@item.Code" class="btn btn-outline-secondary">
+                    <i class="bi bi-info-circle"></i>
+                    </a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Code" class="btn btn-outline-danger">
+                    <i class="bi bi-trash-fill"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

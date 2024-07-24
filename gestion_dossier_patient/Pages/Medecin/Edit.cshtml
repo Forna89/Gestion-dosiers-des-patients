@@ -1,0 +1,81 @@
+@page
+@model gestion_dossier_patient.Pages.Medecin.Edit
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-4">
+        <div class="container">
+            <form action="" method="post">
+                <input type="hidden" asp-for="med.Id">
+                <div class="form-group text-center">
+                    <label asp-for="med.Nom" class="form-label">
+
+                    </label>
+                    <input asp-for="med.Nom" class="form-control form-control-sm" placeholder="Votre nom"
+                        aria-label=".form-control-sm example">
+                </div>
+                <br>
+                <div class="form-group text-center">
+                    <label asp-for="med.Prenom">
+
+                    </label>
+                    <input asp-for="med.Prenom" class="form-control form-control-sm" placeholder="Votre prénom"
+                        aria-label=".form-control-sm example">
+                </div>
+                <br>
+                <div class="form-group text-center">
+    <label asp-for="med.Sexe">
+
+    </label>
+    <input asp-for="med.Sexe" class="form-control form-control-sm" placeholder="Votre sexe"
+        aria-label=".form-control-sm example">
+</div>
+
+                <br>
+                <div class="form-group text-center">
+                    <label asp-for="med.Tel">
+
+                    </label>
+                    <input asp-for="med.Tel" class="form-control form-control-sm" placeholder="(509) 47526900"
+                        aria-label=".form-control-sm example">
+                </div>
+                <br>
+                <div class="form-group text-center">
+                    <label asp-for="med.Adresse">
+
+                    </label>
+                    <input asp-for="med.Adresse" class="form-control form-control-sm" placeholder="Votre adresse"
+                        aria-label=".form-control-sm example">
+                </div>
+                <br>
+                <div class="mb-3 text-center">
+                    <label asp-for="med.Email" class="form-label">
+
+                    </label>
+                    <input asp-for="med.Email" class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <br>
+                <div class="mb-3 text-center">
+                    <label asp-for="med.Specialite">
+
+                    </label>
+                   <input asp-for="med.Specialite" class="form-control form-control-sm" placeholder="Votre specialite"
+                        aria-label=".form-control-sm example">
+
+                    <div class="mt-5 text-center">
+                        <button type="submit" class="btn btn-dark btn-sm">
+                            <strong>Save</strong>
+                        </button>
+                    </div>
+            </form>
+        </div>
+
+
+    </div>
+</div>

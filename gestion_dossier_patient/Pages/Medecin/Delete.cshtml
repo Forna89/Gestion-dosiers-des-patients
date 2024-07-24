@@ -1,0 +1,79 @@
+@page
+@model gestion_dossier_patient.Pages.Medecin.Delete
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <table class="mt-3 table table-danger table-striped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(m => m.med.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.med.Nom)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.med.Prenom)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.med.Sexe)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.med.Tel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.med.Adresse)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.med.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.med.Specialite)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                
+                <td>
+                    @Html.DisplayFor(m => m.med.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => m.med.Nom)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => m.med.Prenom)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => m.med.Sexe)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => m.med.Tel)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => m.med.Adresse)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => m.med.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => m.med.Specialite)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="mt-4">
+        <strong>
+            Voulez-vous supprimer ce medecin ?
+        </strong>
+    </p>
+    <form action="" method="post">
+        <input type="hidden" asp-for="med.Id">
+        <button type="submit" class="btn btn-outline-danger btn-sm">Yes</button>
+        <a asp-page="./Index" class="btn btn-secondary btn-sm">No</a>
+    </form>
+</div>

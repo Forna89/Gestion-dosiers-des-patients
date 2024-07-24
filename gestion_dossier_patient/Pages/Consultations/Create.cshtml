@@ -1,0 +1,59 @@
+@page
+@model gestion_dossier_patient.Pages_Consultations.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Consultation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label  class="control-label">Full name medecin</label>
+                <select asp-for="Consultation.medecinId" class ="form-control" asp-items="ViewBag.medecinId"></select>
+            </div>
+            <div class="form-group">
+                <label  class="control-label">Full name patient</label>
+                <select asp-for="Consultation.patientCode" class ="form-control" asp-items="ViewBag.patientCode"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Consultation.Poids" class="control-label"></label>
+                <input asp-for="Consultation.Poids" class="form-control" />
+                <span asp-validation-for="Consultation.Poids" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Consultation.Hauteur" class="control-label"></label>
+                <input asp-for="Consultation.Hauteur" class="form-control" />
+                <span asp-validation-for="Consultation.Hauteur" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Consultation.Diagnostique" class="control-label"></label>
+                <input asp-for="Consultation.Diagnostique" class="form-control" />
+                <span asp-validation-for="Consultation.Diagnostique" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Consultation.Date_Consultation" class="control-label"></label>
+                <input asp-for="Consultation.Date_Consultation" class="form-control" />
+                <span asp-validation-for="Consultation.Date_Consultation" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-4">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br>
+<div>
+    <a asp-page="Index" class="btn btn-primary">
+        <i class="bi bi-arrow-return-left"></i>
+        </a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

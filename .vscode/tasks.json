@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "msbuild",
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": "build",
+            "label": "Build: gestion_dossier_patient.csproj",
+            "detail": "Build the gestion_dossier_patient.csproj project using dotnet build"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "--configuration",
+                "Release",
+                "--output",
+                "./publish"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

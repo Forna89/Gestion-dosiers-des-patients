@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = gestion_dossier_patient
+build_property.RootNamespace = gestion_dossier_patient
+build_property.ProjectDir = C:\Users\Windows 10 7em Gen\Desktop\Projet final ASP\gestion_dossier_patient\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Windows 10 7em Gen\Desktop\Projet final ASP\gestion_dossier_patient
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Admin/Logins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9naW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Admin/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Consultations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGF0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Consultations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGF0aW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Consultations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGF0aW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Consultations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGF0aW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Consultations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGF0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Dossier_patients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9zc2llcl9wYXRpZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Dossier_patients/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9zc2llcl9wYXRpZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Dossier_patients/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9zc2llcl9wYXRpZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Dossier_patients/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9zc2llcl9wYXRpZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Dossier_patients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9zc2llcl9wYXRpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Dossier_patients/RecherchePatient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9zc2llcl9wYXRpZW50c1xSZWNoZXJjaGVQYXRpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Medecin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkZWNpblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Medecin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkZWNpblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Medecin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkZWNpblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Medecin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkZWNpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Prescriptions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc2NyaXB0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Prescriptions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc2NyaXB0aW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Prescriptions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc2NyaXB0aW9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Prescriptions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc2NyaXB0aW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Prescriptions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlc2NyaXB0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Shared/_Loginuser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpbnVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Windows 10 7em Gen/Desktop/Projet final ASP/gestion_dossier_patient/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3a59mwtahy

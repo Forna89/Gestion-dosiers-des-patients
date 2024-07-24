@@ -1,0 +1,28 @@
+@page
+@model gestion_dossier_patient.Pages.Dossier_patients.RecherchePatientModel
+@{
+    ViewData["Title"] = "Recherche Patient";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group col-md-3">
+        <label for="searchTerm">Recherche par code ou nom :</label>
+        <input type="text" class="form-control mt-2" id="searchTerm" name="searchTerm" placeholder="Entrez le code ou le nom du patient">
+    </div>
+    <button type="submit" class="btn btn-primary mt-4">Rechercher</button>
+</form>
+
+<br>
+
+@if (Model.Patients != null && Model.Patients.Any())
+{
+    <h2>Résultats de la recherche :</h2>
+    <ul>
+        @foreach (var patient in Model.Patients)
+        {
+            <li>@patient.Nom @patient.Prenom - Code : @patient.Code</li>
+        }
+    </ul>
+}
